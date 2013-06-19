@@ -1,13 +1,17 @@
-organization := "com.franklinchen"
-
 name := "test-twirl"
 
-version := "0.1.0"
+organization := "com.franklinchen"
 
-scalaVersion := "2.10.1"
+organizationHomepage := Some(url("http://franklinchen.com/"))
 
-libraryDependencies += "org.specs2" %% "specs2" % "1.14" % "test"
+description := "Test use of Twirl to generate text"
 
-seq(lsSettings :_*)
+homepage := Some(url("https://github.com/FranklinChen/test-twirl"))
+
+version := "1.0.0"
+
+scalaVersion := "2.10.3"
+
+libraryDependencies += "org.specs2" %% "specs2" % "2.3.3" % "test"
 
 seq(Twirl.settings: _*)
