@@ -12,8 +12,8 @@ startYear := Some(2013)
 
 version := "1.0.0"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.10.4"
 
-libraryDependencies += "org.specs2" %% "specs2" % "2.3.8" % "test"
+libraryDependencies += "org.specs2" %% "specs2" % "2.3.10" % "test"
 
 Twirl.settings
