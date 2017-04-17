@@ -12,8 +12,8 @@ startYear := Some(2013)
 
 version := "1.0.0"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.12.1"
 
-libraryDependencies += "org.specs2" %% "specs2-core" % "3.6.5" % Test
+libraryDependencies += "org.specs2" %% "specs2-core" % "3.8.9" % Test
 
-enablePlugins(SbtTwirl)
+lazy val root = (project in file(".")).enablePlugins(SbtTwirl)
